@@ -1,8 +1,8 @@
 package wai.factorybean.service.repository;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
-@Service
+@Component
 public class ListRepositoryMock implements ListRepository {
 
     @Override
